@@ -6,6 +6,7 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
       - PYTHONPATH=/app
+      #- OPENAI_API_KEY=${{OPENAI_API_KEY }}
     env_file:
       - .env
     volumes:
